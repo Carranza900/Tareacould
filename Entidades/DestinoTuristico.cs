@@ -6,7 +6,7 @@ program class CategoriaDestino
 
    public String Descripcion { get; set; } = string.Empty;
 
-   public  String Ubicacion { get; set; } = string.Empty
+   public  String Ubicacion { get; set; } = string.Empty;
 
      void Crear() { }
 
