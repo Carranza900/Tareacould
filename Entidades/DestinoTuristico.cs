@@ -1,15 +1,16 @@
-program class CategoriaDestino
+using System;
+
+namespace Entidades.DestinoTuristico
 {
-   public Guide Id { get; set; }
+    public class DestinoTuristico
+    {
+        public Guid ID { get; set; }
+        public String Nombre { get; set; } = string.Empty;
+        public String Descripcion { get; set; } = string.Empty;
+        public String Ubicacion { get; set; } = string.Empty;
 
-   public Sring Nombre { get; set; } = string.Empty;
+        void Crear() { }
 
-   public String Descripcion { get; set; } = string.Empty;
-
-   public  String Ubicacion { get; set; } = string.Empty;
-
-     void Crear() { }
-
-     void Eliminar() { }
-
+        void Eliminar() { }
+    }
 }
